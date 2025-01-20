@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e3b4e; /* Dark Blue Background */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* App Container */
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3a4a5f; /* Slightly lighter background for content area */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2, h3, p {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #ffffff; /* White text */
+}
+
+/* Dog Card Styling */
+.dog-card {
+    border: 1px solid #4e5a6e;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: #4a5568; /* Dark gray for cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dog-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.dog-card h3 {
+    margin: 5px 0;
+    color: #ffd700; /* Gold for dog names */
+}
+
+.dog-card p {
+    margin: 5px 0;
+    color: #cbd5e0; /* Light gray for text */
+}
+
+.dog-card button {
+    padding: 8px 12px;
+    background-color: #3182ce; /* Blue for buttons */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.dog-card button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #3182ce; /* Blue for buttons */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #4a5568; /* Disabled buttons match card background */
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #2b6cb0; /* Darker blue on hover */
+}
